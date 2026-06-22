@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-<<<<<<< HEAD
 # Pull analysis-ready expression for ONE dataset and write:
 #   <out>.expr.rds      list(counts = genes x samples, meta = samples x covariates)
 #   <out sibling>.expr.csv.gz   genes x samples (for Python / inspection)
@@ -83,7 +82,7 @@ if (src == "recount3") {
 } else {
   stop(sprintf("Unknown data_source '%s'. Use recount3 | GEO_matrix | salmon_workstation.", opt$source))
 }
-=======
+
 # Pull analysis-ready expression for ONE dataset and save a tidy RDS:
 #   list(counts=matrix genes x samples, meta=data.frame samples x covariates)
 # RNA-seq  -> recount3 (preferred) or ARCHS4
@@ -106,4 +105,4 @@ opt <- parse_args(OptionParser(option_list=list(
 # }
 # saveRDS(list(counts=counts, meta=meta), opt$out)
 stop("fetch_expr.R is a stub - implement recount3/ARCHS4/GEO retrieval for your datasets.")
->>>>>>> bc771fbb3e52813646a1d5c06ed14314e7696a3c
+

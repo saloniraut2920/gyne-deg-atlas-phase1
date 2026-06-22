@@ -11,9 +11,9 @@ fit <- eBayes(lmFit(E, design))
 tt <- topTable(fit, coef=2, number=Inf)
 out <- data.table(gene=rownames(tt), log2FC=tt$logFC, p=tt$P.Value,
                   padj=tt$adj.P.Val, n=ncol(E))
-<<<<<<< HEAD
+
 dir.create(dirname(opt$out), showWarnings=FALSE, recursive=TRUE)
-=======
->>>>>>> bc771fbb3e52813646a1d5c06ed14314e7696a3c
+
+
 fwrite(out, opt$out, sep="\t")
 gc()
