@@ -1,8 +1,8 @@
 # data & results are large / regenerable
 data/**
 !data/.gitkeep
-results/**
-!results/.gitkeep
+# results/**
+# !results/.gitkeep
 # raw sequence data must never be committed
 *.fastq
 *.fastq.gz
