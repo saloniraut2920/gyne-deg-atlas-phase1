@@ -1,0 +1,33 @@
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.0 (2026-04-24 ucrt)
+Installing package(s) 'DOSE'
+
+  There is a binary version available but the source version is later:
+     binary source needs_compilation
+DOSE  4.5.0  4.6.0             FALSE
+
+installing the source package 'DOSE'
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DOSE_4.6.0.tar.gz'
+Content type 'application/x-gzip' length 5730043 bytes (5.5 MB)
+==================================================
+downloaded 5.5 MB
+
+* installing *source* package 'DOSE' ...
+** this is package 'DOSE' version '4.6.0'
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called 'stringi'
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package 'DOSE'
+* removing 'C:/Users/Saloni Raut/AppData/Local/R/win-library/4.6/DOSE'
+
+The downloaded source packages are in
+	'C:\Users\Saloni Raut\AppData\Local\Temp\Rtmp86XBch\downloaded_packages'
+Warning message:
+In install.packages(...) :
+  installation of package 'DOSE' had non-zero exit status

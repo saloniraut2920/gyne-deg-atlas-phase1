@@ -1,0 +1,11 @@
+dataset_id,condition,tissue_primary,subtissue,platform,technique,data_source,group_column,case_label,control_label,cycle_phase,notes
+GSE114419,PCOS,Granulosa,luteinized granulosa cells,GPL17586,Microarray,GEO_matrix,group,PCOS,Normal,NA,total=6;3 PCOS vs 3 control;luteinized granulosa cells from follicular fluid
+GSE173160,PCOS,Granulosa cells,Ovarian granulosa cells,GPL24676,RNA-seq,ARCHS4,disease status,PCOS,Control,NA,total=12; 6 PCOS vs 6 control
+GSE294074,PCOS,Granulosa cells,Ovarian granulosa cells,GPL21311,RNA-seq,GEO_matrix,disease status,PCOS,Control,NA,total=6; 3 PCOS granulosa cell samples vs 3 control granulosa cell samples; full-length transcriptome sequencing
+GSE328499,PCOS,Granulosa cells,Ovarian granulosa cells,GPL29480,RNA-seq,GEO_matrix,treatment,IAA,Control,NA,total=6; 3 IAA-treated granulosa cell samples vs 3 control granulosa cell samples; PCOS-related granulosa cell dysfunction model under metabolic stress
+GSE193123,PCOS,Ovary,Ovarian granulosa cells,GPL24676,RNA-seq,GEO_counts,disease_status,PCOS,Control,NA,total=6; 3 PCOS vs 3 control; ovarian granulosa cells
+GSE23339,Endometriosis,Ovary,Endometrioma,GPL6102,Microarray,GEO_matrix,disease_status,Endometrioma,Control endometrium,NA,total=19; 10 endometrioma samples vs 9 non-endometriosis control endometrium samples
+GSE136412,Endometriosis,Ovary,Endometriotic cyst stromal cells,GPL17077,Microarray,GEO_matrix,culture_condition,3D collagen gel culture,2D conventional culture,NA,total=16; 8 samples cultured in 3D collagen gel vs 8 samples cultured in conventional 2D culture; ECSCs isolated from ovarian endometriotic cysts
+GSE276193,Endometriosis,Ovary,Follicular fluid granulosa cells,GPL34284,RNA-seq,GEO_counts,disease_status,Endometriosis,Control,NA,total=18;9 ovarian endometriosis-associated infertility vs 9 male factor infertility controls;follicular fluid granulosa cells
+GSE205494,Endometriosis,Ovary,Follicular fluid,GPL16791,RNA-seq,GEO_counts,disease_status,EMFF,COFF,NA,total=12;6 endometriosis-related infertility(EMFF) vs 6 control(COFF);follicular fluid samples
+GSE193928,Adenomyosis,Endometrium,Endometrial biopsy,GPL11154,RNA-seq,GEO_counts,disease,Adenomyosis,Control,NA,total=4;2 painful adenomyosis vs 2 non-painful adenomyosis;no healthy controls
