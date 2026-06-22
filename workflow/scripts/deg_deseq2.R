@@ -13,9 +13,9 @@ dds <- DESeq(dds); res <- as.data.frame(results(dds))
 res$gene <- rownames(res)
 out <- data.table(gene=res$gene, log2FC=res$log2FoldChange, p=res$pvalue,
                   padj=res$padj, n=ncol(counts))
-<<<<<<< HEAD
+
 dir.create(dirname(opt$out), showWarnings=FALSE, recursive=TRUE)
-=======
->>>>>>> bc771fbb3e52813646a1d5c06ed14314e7696a3c
+
+
 fwrite(out, opt$out, sep="\t")
 gc()
